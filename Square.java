@@ -43,7 +43,7 @@ public class Square {
         double d1 = sideLength(A, C);
         double d2 = sideLength(B, D);
 
-        return (AB == BC && BC == CD && CD == AD && d1 != d2);
+        return (AB == BC && BC == CD && CD == AD && d1 == d2);
     }
 
     private double sideLength(Dot start, Dot end) {
